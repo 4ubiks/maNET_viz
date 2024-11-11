@@ -10,7 +10,6 @@ function Name() {
       .then(data => {
         console.log('Computer name: ', data.name);
         setComputerName(data.name);
-        console.log('hey buddy')
         })
       .catch(error => console.error('Error fetching computer name:', error));
       console.log(computerName)
