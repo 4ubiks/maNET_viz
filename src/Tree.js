@@ -1,6 +1,8 @@
 // src/Tree.js
 import React, { useRef, useEffect } from "react";
+import Name from './name.js';
 import * as d3 from "d3";
+
 
 
 const Tree = () => {
