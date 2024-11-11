@@ -1,0 +1,21 @@
+{
+    "terminal.profiles.windows": {
+    "Frontend Terminal": {
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+      "icon": "terminal-frontend",
+      "color": "#f07b8a"
+    },
+    "Backend Terminal": {
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+      "icon": "terminal-backend",
+      "color": "#8a9df0"
+    },
+    "Command Terminal": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": ["/K", "echo Command terminal initialized"],
+      "icon": "terminal-command",
+      "color": "#90e040"
+    }
+  },
+  "terminal.defaultProfile.windows": "Frontend Terminal"
+}
